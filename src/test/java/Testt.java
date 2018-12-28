@@ -32,6 +32,7 @@ public class Testt {
 		WebElement logInButton = driver.findElement(By.id("lgnC_m_loginBtn"));
 		logInButton.click();	
 		Assert.assertEquals(true, true);
+		Assert.assertEquals(true, true);
 		
 	}
 
